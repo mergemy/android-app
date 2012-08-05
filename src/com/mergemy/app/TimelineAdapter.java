@@ -1,4 +1,4 @@
-package com.merge.app;
+package com.mergemy.app;
 
 import android.widget.BaseAdapter;
 import android.view.LayoutInflater;

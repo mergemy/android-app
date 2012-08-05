@@ -1,4 +1,4 @@
-package com.merge.app;
+package com.mergemy.app;
 
 import com.loopj.android.http.*;
 import org.json.*;

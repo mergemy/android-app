@@ -1,4 +1,4 @@
-package com.merge.app;
+package com.mergemy.app;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -27,7 +27,7 @@ public class Timeline extends Activity {
 		String url = String.format("https://pixelmerge.me/api/posts/private?grant_type=password&client_id=%s&client_secret=%s&access_token=%s",
 			Main.client_id,
 			Main.client_secret,
-			settings.getString("access_token", "0")
+			settings.getString("token", "0")
 		);
 		
 		System.out.println(url);
@@ -39,7 +39,5 @@ public class Timeline extends Activity {
 				lv.setAdapter(tlAdapter);
 			}
 		});
-		
-		
 	}
 }
